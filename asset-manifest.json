@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/recipe-app/static/css/main.73eed5dd.chunk.css",
+    "main.js": "/recipe-app/static/js/main.8593f3bb.chunk.js",
+    "main.js.map": "/recipe-app/static/js/main.8593f3bb.chunk.js.map",
+    "runtime-main.js": "/recipe-app/static/js/runtime-main.ad76369e.js",
+    "runtime-main.js.map": "/recipe-app/static/js/runtime-main.ad76369e.js.map",
+    "static/js/2.4c586aa0.chunk.js": "/recipe-app/static/js/2.4c586aa0.chunk.js",
+    "static/js/2.4c586aa0.chunk.js.map": "/recipe-app/static/js/2.4c586aa0.chunk.js.map",
+    "index.html": "/recipe-app/index.html",
+    "static/css/main.73eed5dd.chunk.css.map": "/recipe-app/static/css/main.73eed5dd.chunk.css.map",
+    "static/js/2.4c586aa0.chunk.js.LICENSE.txt": "/recipe-app/static/js/2.4c586aa0.chunk.js.LICENSE.txt",
+    "static/media/search.css": "/recipe-app/static/media/pexels-felix-mittermeier-956999.94a2fa22.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad76369e.js",
+    "static/js/2.4c586aa0.chunk.js",
+    "static/css/main.73eed5dd.chunk.css",
+    "static/js/main.8593f3bb.chunk.js"
+  ]
+}
