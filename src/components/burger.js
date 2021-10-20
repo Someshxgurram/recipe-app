@@ -7,7 +7,7 @@ const Burger=()=>{
   const API_URL = `https://api.spoonacular.com/recipes/complexSearch?query=burger&apiKey=${APP_KEY}`;
     useEffect(() => {
         loadData();
-      }, []);
+      });
     
      const loadData = async () => {
         const response = await fetch(API_URL);

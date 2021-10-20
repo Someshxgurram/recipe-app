@@ -8,7 +8,7 @@ function Search(props){
   const API_URL = `https://api.spoonacular.com/recipes/complexSearch?query=${props.query}&apiKey=${APP_KEY}`;
     useEffect(() => {
         loadData();
-      }, [props.query]);
+      });
     
      const loadData = async () => {
         const response = await fetch(API_URL);

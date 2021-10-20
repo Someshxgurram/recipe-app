@@ -8,7 +8,7 @@ const Pizza=()=>{
   const API_URL = `https://api.spoonacular.com/recipes/complexSearch?query=pizza&apiKey=${APP_KEY}`;
     useEffect(() => {
         loadData();
-      }, []);
+      });
     
      const loadData = async () => {
         const response = await fetch(API_URL);
