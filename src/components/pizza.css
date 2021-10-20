@@ -1,0 +1,22 @@
+.pizza{
+    background: url("./pexels-felix-mittermeier-956999.jpg");
+    margin-top: 2px;
+}
+.pizza section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.welcome h1{
+    color: white;
+    font-size: 90px;
+}
+.display{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    gap:150px;
+}
+.pizza .display{
+    padding-bottom: 50px;
+}

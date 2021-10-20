@@ -1,0 +1,48 @@
+.home{
+    background: url("./pexels-felix-mittermeier-956999.jpg");
+    margin-top: 2px;
+}
+.home section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome h1{
+    font-size: 200px;
+    color: white;
+}
+.quotes{
+    display: grid;
+    gap:100px;
+}
+.quotes img{
+    width:300px;
+    height: 400px;
+    box-shadow: 2px 2px 20px black;
+}
+.quotes img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+.about h2{
+    font-size: 50px;
+    color: white;
+}
+.para p{
+    font-size: 20px;
+    color: white;
+}
+.follow{
+    padding-bottom: 50px;
+}
+.follow img{
+    width:30px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.follow img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
