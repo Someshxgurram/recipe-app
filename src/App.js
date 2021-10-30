@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import { BrowserRouter as Router , Route,Switch,Link} from 'react-router-dom';
+import { Route,Switch,Link} from 'react-router-dom';
 import './components/navbar.css'
 import Home from './components/home';
 import Burger from './components/burger';
@@ -11,7 +11,7 @@ const App = () =>{
     const Change = e => setQuery(e.target.value);
   return (
     <div className="content"> 
-      <Router>
+      
       <div>
             <nav className="nav">
                 <Link to="/" className="Link">Home</Link>
@@ -37,7 +37,6 @@ const App = () =>{
               <Home></Home>
           </Route>
           </Switch>
-      </Router>
     </div>
   );
 }
